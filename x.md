@@ -8,6 +8,7 @@
   - Thêm tính năng dump source code các file bị nghi ngờ (thay vì dump toàn bộ webroot như `v2`)
   - Sửa lỗi chức năng tự động **phát hiện Webserver đang chạy** và **lấy Webroot**
   - Sửa một số lỗi khi lưu kết quả ra file `csv`
+  - Tạm thời bỏ tích hợp với tool MFTRCRD
 
 ## Requirements
 
