@@ -27,8 +27,8 @@ Không hỗ trợ
 | Tự phát hiện Webserver | `IIS`, `Apache`, `Nginx`, `Weblogic`, `Jboss`, `Tomcat` | Không có | (Yêu cầu **Root permission**)
 | Tự lấy Webroot | `IIS`, `Apache`, `Nginx` | Không có | (Yêu cầu **Root permission**)
 |Quét theo extensions| Tự gợi ý | Tất cả / Tự gợi ý / Tùy chỉnh | Tự gợi ý: Lấy từ tập luật trong DB
-|Quét theo loại ngôn ngữ| Tự gợi ý | = | Tự gợi ý: Lấy từ tập luật trong DB
-|Dump files| Tùy chỉnh (*Enable* hoặc *Disable*) | Tất cả / Tự gợi ý / Tùy chỉnh | Mặc định: **Enable**
+|Quét theo loại ngôn ngữ| Tự gợi ý | Tất cả / Tự gợi ý / Tùy chỉnh | Tự gợi ý: Lấy từ tập luật trong DB
+|Dump files| Tùy chỉnh (*Enable* hoặc *Disable*) | = | Mặc định: **Enable**
 |Threads| Tùy chỉnh | = | Mặc định: `2 threads`.  Nên sử dụng ít hơn `10 threads`.
 |Output CLI| Chỉ hiện thị đường dẫn file nghi ngờ | = | Thông tin chi tiết được lưu ra file output.
 
