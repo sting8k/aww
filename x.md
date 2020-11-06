@@ -1,11 +1,11 @@
 
-# Chang logs v3.1.1
-  - Tốc độ nhanh gấp 1.5x lần v3.0
-  - Log được lưu đầy đủ hơn (cả những server có web app và không có). Thuận tiện cho việc truy vết
-  - Cải thiện rules
+## Chang logs v3.1.1
+  - Tốc độ nhanh gấp **~1.5x** lần `v3.0`
+  - Log được lưu đầy đủ hơn (cả những server có web app và không có). Thuận tiện cho việc truy vết.
+  - Cải thiện rules.
   - Support tự động tìm kiếm webroot cho **Tomcat, Jboss, Weblogic**
-  - Fix bugs
-# Chang logs v3.0
+  - Fix bugs.
+## Chang logs v3.0
   - Thay đổi ngôn ngữ từ **Python** sang **Golang** với khả năng xử lý **multithreads**. 
   - Tốc độ được cải thiện nhanh gấp **~2x** - **5x** lần
   - Tối ưu tập luật, sử dụng `parser` cho kết quả đẹp và giảm tương đối *False positive*. Đặc biệt với ngôn ngữ `PHP`
