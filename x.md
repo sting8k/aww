@@ -1,6 +1,11 @@
 
-
-# New Features v3.0 !
+# Chang logs v3.1.1
+  - Tốc độ nhanh gấp 1.5x lần v3.0
+  - Log được lưu đầy đủ hơn (cả những server có web app và không có). Thuận tiện cho việc truy vết
+  - Cải thiện rules
+  - Support tự động tìm kiếm webroot cho **Tomcat, Jboss, Weblogic**
+  - Fix bugs
+# Chang logs v3.0
   - Thay đổi ngôn ngữ từ **Python** sang **Golang** với khả năng xử lý **multithreads**. 
   - Tốc độ được cải thiện nhanh gấp **~2x** - **5x** lần
   - Tối ưu tập luật, sử dụng `parser` cho kết quả đẹp và giảm tương đối *False positive*. Đặc biệt với ngôn ngữ `PHP`
@@ -25,7 +30,7 @@ Không hỗ trợ
 | MODE: | 1. Auto | 2. Manual | Ghi chú |
 |--|--|--|--|
 | Tự phát hiện Webserver | `IIS`, `Apache`, `Nginx`, `Weblogic`, `Jboss`, `Tomcat` | Không có | (Yêu cầu **Root permission**)
-| Tự lấy Webroot | `IIS`, `Apache`, `Nginx` | Không có | (Yêu cầu **Root permission**)
+| Tự lấy Webroot | `IIS`, `Apache`, `Nginx`, `Weblogic`, `Jboss`, `Tomcat` | Không có | (Yêu cầu **Root permission**)
 |Quét theo extensions| Tự gợi ý | Tất cả / Tự gợi ý / Tùy chỉnh | Tự gợi ý: Lấy từ tập luật trong DB
 |Quét theo loại ngôn ngữ| Tự gợi ý | Tất cả / Tự gợi ý / Tùy chỉnh | Tự gợi ý: Lấy từ tập luật trong DB
 |Dump files| Tùy chỉnh (*Enable* hoặc *Disable*) | = | Mặc định: **Enable**
