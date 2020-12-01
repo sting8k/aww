@@ -1,4 +1,8 @@
 
+
+## Chang logs v3.1.2
+  - Định dạng file log được lưu theo cú pháp `ws_<randomint>-<date>_<webroot>_<số lượng file nghi ngờ>`
+  - Add thêm chế độ chạy bằng arguments ([#CLI](#CLI))
 ## Chang logs v3.1.1
   - Tốc độ nhanh gấp **~1.5x** lần `v3.0`
   - Log được lưu đầy đủ hơn (cả những server có web app và không có). Thuận tiện cho việc truy vết.
@@ -39,6 +43,23 @@ Không hỗ trợ
 
 `=` : Như bên cạnh
 
+## CLI
+```
+Usage:
+  -c    Collect sourcecode?
+  -e string
+        Extensions to be scanned
+  -l string
+        Languages to be scanned (asp,php,java)
+  -m int
+        Auto (1) or Manual (2) (default 1)
+  -p string
+        Password
+  -t int
+        Threads (default 2)
+  -w string
+        Webroot
+```
 
 ## Screenshot
 
