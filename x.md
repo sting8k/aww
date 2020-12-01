@@ -1,7 +1,7 @@
 
 
 ## Chang logs v3.1.2
-  - Định dạng file log được lưu theo cú pháp `ws_<randomint>-<date>_<webroot>_<số lượng file nghi ngờ>`
+  - Định dạng file log được lưu như sau `ws_<randomint>-<date>_<webroot>_<số lượng file nghi ngờ>`
   - Add thêm chế độ chạy bằng arguments ([#CLI](#CLI))
 ## Chang logs v3.1.1
   - Tốc độ nhanh gấp **~1.5x** lần `v3.0`
