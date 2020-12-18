@@ -1,5 +1,6 @@
-
-
+## Chang logs v3.1.3
+  - Extend license đến 06/2021
+  - Fix bugs tự động phát hiện webroot `Nginx, Apache` trên **Windows**
 ## Chang logs v3.1.2
   - Định dạng file log được lưu như sau `ws_<randomint>-<date>_<webroot>_<số lượng file nghi ngờ>`
   - Hỗ trợ chạy qua CLI ([#CLI](#CLI))
