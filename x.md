@@ -1,3 +1,7 @@
+## Chang logs v3.1.4
+  - Phát hiện các folder là symlink (Có thể gây lỗi trong quá trình rà quét)
+  - Thêm một số rule phát hiện webshell
+  - Fix bug đặt tên file/folder output
 ## Chang logs v3.1.3
   - Extend license đến 06/2021
   - Fix bugs tự động phát hiện webroot `Nginx, Apache` trên **Windows**
