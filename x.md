@@ -1,3 +1,5 @@
+## Chang logs v3.1.4b
+  - Fix bug không quét được trên windows
 ## Chang logs v3.1.4
   - Phát hiện các folder là symlink (Có thể gây lỗi trong quá trình rà quét)
   - Thêm một số rule phát hiện webshell
