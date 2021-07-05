@@ -1,7 +1,8 @@
 ## Change logs 3.1.5b
   - Gia hạn license
 ## Change logs 3.1.5
-  - Fix bugs output
+  - Fix bug xử lý các folder, file symlink.
+  - Fix bug xuất output
 ## Change logs v3.1.4b
   - Fix bug không quét được trên windows
 ## Change logs v3.1.4
