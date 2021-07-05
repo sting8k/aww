@@ -1,23 +1,27 @@
-## Chang logs v3.1.4b
+## Change logs 3.1.5b
+  - Gia hạn license
+## Change logs 3.1.5
+  - Fix bugs output
+## Change logs v3.1.4b
   - Fix bug không quét được trên windows
-## Chang logs v3.1.4
+## Change logs v3.1.4
   - Phát hiện các folder là symlink (Có thể gây lỗi trong quá trình rà quét)
   - Thêm một số rule phát hiện webshell
   - Fix bug đặt tên file/folder output
-## Chang logs v3.1.3
+## Change logs v3.1.3
   - Extend license đến 06/2021
   - Fix bugs tự động phát hiện webroot `Nginx, Apache` trên **Windows**
-## Chang logs v3.1.2
+## Change logs v3.1.2
   - Định dạng file log được lưu như sau `ws_<randomint>-<date>_<webroot>_<số lượng file nghi ngờ>`
   - Hỗ trợ chạy qua CLI ([#CLI](#CLI))
   - Fix bugs
-## Chang logs v3.1.1
+## Change logs v3.1.1
   - Tốc độ nhanh gấp **~1.5x** lần `v3.0`
   - Log được lưu đầy đủ hơn (cả những server có web app và không có). Thuận tiện cho việc truy vết.
   - Cải thiện rules.
   - Support tự động tìm kiếm webroot cho **Tomcat, Jboss, Weblogic**
   - Fix bugs.
-## Chang logs v3.0
+## Change logs v3.0
   - Thay đổi ngôn ngữ từ **Python** sang **Golang** với khả năng xử lý **multithreads**. 
   - Tốc độ được cải thiện nhanh gấp **~2x** - **5x** lần
   - Tối ưu tập luật, sử dụng `parser` cho kết quả đẹp và giảm tương đối *False positive*. Đặc biệt với ngôn ngữ `PHP`
